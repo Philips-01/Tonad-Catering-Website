@@ -1,0 +1,370 @@
+
+/* =====================================
+   TONAD CATERING SERVICES
+   ABOUT PAGE STYLES
+===================================== */
+
+.about-hero {
+    background: #FFF7ED;
+    padding: 105px 0 110px;
+    text-align: center;
+}
+
+.about-hero-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.about-eyebrow {
+    display: inline-block;
+    color: #D95D0B;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 17px;
+}
+
+.about-hero h1 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2.8rem, 6vw, 5rem);
+    line-height: 1.15;
+    color: #111;
+    margin-bottom: 22px;
+}
+
+.about-hero h1 span {
+    display: block;
+    color: #F97316;
+}
+
+.about-hero p {
+    max-width: 680px;
+    margin: 0 auto 30px;
+    color: #686057;
+    font-size: 1.03rem;
+    line-height: 1.9;
+}
+
+.about-hero .btn,
+.about-contact .btn,
+.about-offerings .btn {
+    padding: 14px 24px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+/* GENERAL SECTION */
+
+.section-padding {
+    padding: 90px 0;
+}
+
+.about-story {
+    background: #FFFFFF;
+}
+
+.about-story-image {
+    position: relative;
+    height: 470px;
+}
+
+.about-story-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.story-image-label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: #FFFFFF;
+    padding: 17px 23px;
+    box-shadow: 0 10px 30px #00000012;
+}
+
+.story-image-label span {
+    display: block;
+    color: #D95D0B;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.story-image-label strong {
+    font-family: "Playfair Display", serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.about-story h2,
+.about-offerings h2,
+.about-contact h2 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2.1rem, 4vw, 3.3rem);
+    line-height: 1.2;
+    color: #111;
+    margin-bottom: 22px;
+}
+
+.about-story p,
+.about-offerings p,
+.about-contact p {
+    color: #686057;
+    font-size: 0.94rem;
+    line-height: 1.9;
+}
+
+.about-text-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #D95D0B;
+    font-weight: 800;
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+.about-text-link:hover {
+    color: #111;
+}
+
+
+/* VALUES */
+
+.about-values {
+    background: #FFF7ED;
+}
+
+.section-heading {
+    max-width: 650px;
+    margin: 0 auto 45px;
+}
+
+.section-heading h2 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.section-heading p {
+    color: #686057;
+    line-height: 1.8;
+}
+
+.value-card {
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #F0E2D4;
+    padding: 32px 27px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px #6D3B1412;
+}
+
+.value-icon {
+    display: grid;
+    place-items: center;
+    width: 55px;
+    height: 55px;
+    background: #FFF0E3;
+    color: #F97316;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin-bottom: 22px;
+}
+
+.value-card h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.45rem;
+    color: #111;
+    margin-bottom: 13px;
+}
+
+.value-card p {
+    color: #746B62;
+    font-size: 0.88rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+
+/* OFFERINGS */
+
+.about-offerings {
+    background: #FFFFFF;
+}
+
+.offering-list {
+    border-top: 1px solid #EADFD3;
+}
+
+.offering-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 5px;
+    border-bottom: 1px solid #EADFD3;
+}
+
+.offering-number {
+    color: #F97316;
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+}
+
+.offering-item div {
+    flex: 1;
+}
+
+.offering-item h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.3rem;
+    color: #111;
+    margin-bottom: 7px;
+}
+
+.offering-item p {
+    font-size: 0.84rem;
+    margin: 0;
+}
+
+.offering-item > i {
+    color: #D95D0B;
+    font-size: 1.2rem;
+}
+
+
+/* MOTTO */
+
+.about-motto {
+    background: #171717;
+    color: #FFFFFF;
+    padding: 90px 20px;
+}
+
+.about-motto .about-eyebrow {
+    color: #FFAB70;
+}
+
+.about-motto h2 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(3rem, 7vw, 5.5rem);
+    color: #FFFFFF;
+    margin: 12px 0 15px;
+}
+
+.about-motto h2 span {
+    color: #F97316;
+}
+
+.about-motto p {
+    color: #D1C8BF;
+    margin-bottom: 27px;
+}
+
+.about-motto .btn {
+    color: #A84206;
+    font-weight: 800;
+    padding: 13px 23px;
+}
+
+
+/* FINAL CONTACT SECTION */
+
+.about-contact {
+    background: #FFFFFF;
+}
+
+.about-contact-inner {
+    background: #FFF7ED;
+    border: 1px solid #F0E2D4;
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about-contact-inner > div {
+    max-width: 600px;
+}
+
+.about-contact h2 {
+    margin-bottom: 12px;
+}
+
+.about-contact p {
+    margin-bottom: 0;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 991px) {
+
+    .about-hero {
+        padding: 80px 0;
+    }
+
+    .about-story-image {
+        height: 400px;
+    }
+
+    .about-contact-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 35px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .about-hero {
+        padding: 65px 0;
+    }
+
+    .about-hero h1 {
+        font-size: 2.7rem;
+    }
+
+    .section-padding {
+        padding: 65px 0;
+    }
+
+    .about-story-image {
+        height: 320px;
+    }
+
+    .value-card {
+        padding: 25px 22px;
+    }
+
+    .offering-item {
+        gap: 12px;
+    }
+
+    .offering-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .offering-item p {
+        font-size: 0.78rem;
+    }
+
+    .about-motto {
+        padding: 70px 15px;
+    }
+
+    .about-contact-inner {
+        padding: 27px 22px;
+    }
+
+}

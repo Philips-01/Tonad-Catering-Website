@@ -1,0 +1,460 @@
+/* PAGE HERO */
+
+.services-hero {
+    background: #FFF7ED;
+    padding: 85px 0 95px;
+    text-align: center;
+}
+
+.services-hero-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.services-eyebrow {
+    display: inline-block;
+    color: #D95D0B;
+    font-size: 0.76rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.services-hero h1 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(3rem, 7vw, 5.4rem);
+    line-height: 1.08;
+    color: #111;
+    margin-bottom: 22px;
+}
+
+.services-hero h1 span {
+    color: #F97316;
+}
+
+.services-hero p {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    color: #686057;
+    font-size: 1.02rem;
+    line-height: 1.8;
+}
+
+.services-hero-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+
+.services-hero-buttons .btn {
+    padding: 13px 21px;
+}
+
+
+/* INTRODUCTION */
+
+.services-intro {
+    padding: 90px 0;
+    background: #fff;
+}
+
+.services-intro-image {
+    height: 430px;
+    position: relative;
+}
+
+.services-intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.image-label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: #fff;
+    color: #333;
+    padding: 13px 17px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    box-shadow: 0 8px 25px #00000012;
+}
+
+.image-label i {
+    color: #F97316;
+    margin-right: 7px;
+}
+
+.services-intro h2 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    line-height: 1.2;
+    color: #111;
+    margin-bottom: 22px;
+}
+
+.services-intro p {
+    color: #696159;
+    line-height: 1.9;
+    font-size: 0.94rem;
+    margin-bottom: 17px;
+}
+
+.services-text-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #D95D0B;
+    font-weight: 800;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.services-text-link:hover {
+    color: #111;
+}
+
+
+/* MAIN SERVICES */
+
+.services-list-section {
+    padding: 85px 0;
+    background: #FFF7ED;
+}
+
+.section-heading {
+    max-width: 680px;
+    margin: 0 auto 45px;
+}
+
+.section-heading h2 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2.2rem, 4vw, 3.2rem);
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.section-heading p {
+    color: #777067;
+    font-size: 0.94rem;
+    line-height: 1.7;
+}
+
+.service-detail-card {
+    height: 100%;
+    background: #fff;
+    border: 1px solid #eee1d4;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.service-detail-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px #492b1112;
+}
+
+.service-detail-image {
+    height: 235px;
+    position: relative;
+    overflow: hidden;
+    background: #ead7c1;
+}
+
+.service-detail-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.service-detail-card:hover .service-detail-image img {
+    transform: scale(1.05);
+}
+
+.service-number {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 39px;
+    height: 39px;
+    display: grid;
+    place-items: center;
+    background: #F97316;
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.85rem;
+}
+
+.service-detail-content {
+    padding: 24px;
+}
+
+.service-category {
+    color: #D95D0B;
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.service-detail-content h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.55rem;
+    color: #171717;
+    margin: 12px 0;
+}
+
+.service-detail-content p {
+    color: #777067;
+    font-size: 0.87rem;
+    line-height: 1.8;
+    min-height: 76px;
+    margin-bottom: 20px;
+}
+
+.service-enquiry {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid #eadfd3;
+    color: #171717;
+    padding: 12px 14px;
+    font-size: 0.85rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.service-enquiry:hover {
+    background: #F97316;
+    color: #fff;
+    border-color: #F97316;
+}
+
+
+/* ADDITIONAL SERVICES */
+
+.additional-services {
+    padding: 85px 0;
+    background: #fff;
+}
+
+.additional-service {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 17px;
+    padding: 24px;
+    border: 1px solid #eee1d4;
+    background: #fffdfa;
+    transition: border-color 0.25s ease;
+}
+
+.additional-service:hover {
+    border-color: #F97316;
+}
+
+.additional-service > span {
+    flex: 0 0 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    background: #FFF0E4;
+    color: #D95D0B;
+    font-size: 1.35rem;
+}
+
+.additional-service h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.2rem;
+    color: #171717;
+    margin-bottom: 8px;
+}
+
+.additional-service p {
+    font-size: 0.82rem;
+    color: #777067;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+
+/* BOOKING PROCESS */
+
+.booking-process {
+    padding: 85px 0;
+    background: #FFF7ED;
+}
+
+.process-card {
+    height: 100%;
+    position: relative;
+    padding: 35px 28px;
+    background: #fff;
+    border: 1px solid #eee1d4;
+}
+
+.process-number {
+    position: absolute;
+    top: 20px;
+    right: 22px;
+    font-family: "Playfair Display", serif;
+    font-size: 1.6rem;
+    color: #E8D9C9;
+}
+
+.process-card > i {
+    display: inline-grid;
+    place-items: center;
+    width: 55px;
+    height: 55px;
+    background: #FFF0E4;
+    color: #D95D0B;
+    font-size: 1.45rem;
+    margin-bottom: 22px;
+}
+
+.process-card h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    color: #171717;
+}
+
+.process-card p {
+    color: #777067;
+    font-size: 0.87rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+
+/* FINAL CTA */
+
+.services-cta {
+    background: #F97316;
+    padding: 65px 0;
+}
+
+.services-cta-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.services-cta .services-eyebrow {
+    color: #FFF0E4;
+}
+
+.services-cta h2 {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 12px;
+}
+
+.services-cta p {
+    color: #FFF0E4;
+    margin-bottom: 0;
+    max-width: 570px;
+}
+
+.services-cta .btn {
+    flex: 0 0 auto;
+    color: #9F3E03;
+    font-weight: 800;
+    padding: 14px 23px;
+}
+
+.services-cta .btn:hover {
+    background: #111;
+    color: #fff;
+}
+
+
+/* RESPONSIVENESS */
+
+@media (max-width: 991px) {
+    .services-intro-image {
+        height: 370px;
+    }
+
+    .service-detail-content {
+        padding: 20px;
+    }
+
+    .services-cta-content {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .services-hero {
+        padding: 65px 0;
+    }
+
+    .services-intro,
+    .services-list-section,
+    .additional-services,
+    .booking-process {
+        padding: 65px 0;
+    }
+
+    .services-intro-image {
+        height: 330px;
+    }
+
+    .section-heading {
+        margin-bottom: 32px;
+    }
+
+    .service-detail-image {
+        height: 220px;
+    }
+
+    .service-detail-content p {
+        min-height: 0;
+    }
+
+    .additional-service {
+        padding: 20px;
+    }
+
+    .services-cta {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-hero h1 {
+        font-size: 3rem;
+    }
+
+    .services-hero-buttons {
+        flex-direction: column;
+    }
+
+    .services-hero-buttons .btn {
+        width: 100%;
+    }
+
+    .services-intro-image {
+        height: 270px;
+    }
+
+    .service-detail-image {
+        height: 210px;
+    }
+
+    .services-cta .btn {
+        width: 100%;
+    }
+}
