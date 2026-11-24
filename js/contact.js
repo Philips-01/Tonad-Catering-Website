@@ -1,10 +1,4 @@
-
 "use strict";
-
-/* =====================================
-   TONAD CATERING SERVICES
-   Contact Page JavaScript
-===================================== */
 
 // Get the contact form.
 const contactForm = document.getElementById("contactForm");
